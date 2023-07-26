@@ -11,7 +11,7 @@ class Solution {
         }
         return lo;
     }
-    public boolean check(int[] dist, double hour, int mid) 
+    public boolean check(int dist[], double hour, int mid) 
     {
         double sum=0;
         for (int i=0;i<dist.length;i++) 
