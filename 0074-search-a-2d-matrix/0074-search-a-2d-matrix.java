@@ -1,7 +1,7 @@
 class Solution {
     public boolean searchMatrix(int[][] matrix, int target) {
         int m=matrix.length,n=matrix[0].length,i=0,j=n-1,l=0,r=n-1;
-        while(i<m && j<n){
+        while(i<m){
             if(matrix[i][j]<target) i++;
             else{
                 while(l<=r){
