@@ -25,6 +25,7 @@ class Solution
                 n>>=1;
                 cur=n&1;
                 if(prev==cur && prev==1) return false;
+                prev=cur;
             }
             return true;
         }
