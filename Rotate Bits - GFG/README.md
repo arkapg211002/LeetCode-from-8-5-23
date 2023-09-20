@@ -18,7 +18,7 @@ N = 29, D = 2
 16391
 <strong>Explanation</strong>: <br>29 in Binary is: 0000000000011101
 Rotating left by 2 positions, it becomes 0000000001110100 = 116 (in decimal).
-Rotating right by 2 positions, it becomes 0000000010000111 = 16391 (in decimal).
+Rotating right by 2 positions, it becomes 100000000000111 = 16391 (in decimal).
 </span></pre>
 <p><span style="font-size: 18px;"><strong>Your Task:</strong><br>You don't need to read input or print anything. Your task is to complete the function&nbsp;<strong>rotate()&nbsp;</strong>which takes the integer N and integer D as inputs and returns an array of size 2 where arr[0] = Decimal value after left rotation and arr[1] = Decimal value after right rotation.</span></p>
 <p><span style="font-size: 18px;"><strong>Expected Time Complexity: </strong>O(1).<br><strong>Expected Auxiliary Space:&nbsp;</strong>O(1).</span></p>
