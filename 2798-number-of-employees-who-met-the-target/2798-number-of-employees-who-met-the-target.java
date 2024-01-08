@@ -13,7 +13,6 @@ class Solution {
             else
                 l=mid+1;
         }
-        //System.out.println(id);
         if(id!=-1) return hours.length-id;
         else return 0;
     }
