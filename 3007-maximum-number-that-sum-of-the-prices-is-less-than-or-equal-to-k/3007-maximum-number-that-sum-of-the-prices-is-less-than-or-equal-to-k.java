@@ -19,9 +19,9 @@ class Solution {
     public boolean valid(long mid,int x,long k)
     {
         long sum=0L;
-        for(int i=1;i<64;i++)
+        for(int i=x;i<64;i+=x)
         {
-            if(i%x!=0) continue;
+            //if(i%x!=0) continue;
             long pow=(long)Math.pow(2,i);
             long rem=mid%pow;
             long pow2=pow/2;
